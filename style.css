@@ -1,0 +1,83 @@
+/* Styles for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+/* Styling for the input label */
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+/* Styling the input field */
+input[type="number"] {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Styling the button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling the Fibonacci output */
+#fibonacciOutput {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Styling for the multiplication table output */
+pre {
+    font-family: monospace;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px auto;
+    display: inline-block;
+    text-align: left;
+    color: #333;
+    border-radius: 4px;
+    width: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media queries to make the design responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input[type="number"] {
+        width: 80px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
