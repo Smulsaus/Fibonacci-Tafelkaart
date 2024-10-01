@@ -20,6 +20,7 @@
     <pre id="tableOutput"></pre>
 
     <script>
+        //functie om de fibonacci te genereren
         function generateFibonacci(n) {
             let sequence = [];
             let a = 1, b = 2;
@@ -32,6 +33,7 @@
             return sequence;
         }
 
+        //functie om een tabel te genereren 
         function generateTable(n) {
             let table = '';
             for (let i = 1; i <= n; i++) {
@@ -43,7 +45,8 @@
             }
             return table;
         }
-
+        
+        //functie voor antwoorden genereren
         function runGenerators() {
             const n = document.getElementById('numberInput').value;
             
